@@ -1,4 +1,4 @@
-import NavBar from '@/components/NavBar'
+import Layout from '@/components/Layout'
 import '@/styles/globals.css'
 import { Space_Grotesk } from "next/font/google"
 import Head from 'next/head'
@@ -12,14 +12,12 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="widt-device-width, initial-scale=1"/>
-        <link rel="icon" href="/favicon.ico"/>
+        <meta name="viewport" content="widt-device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={`${font.variable} font-grot bg-light w-full min-h-screen`}>
-        <NavBar/>
+      <Layout className="pt-2 lg:pt-0 px-12 md:px-32">
         <Component {...pageProps} />
-      </main>
+      </Layout>
     </>
   )
 }

@@ -23,13 +23,13 @@ const HamburgerMenu = () => {
                     </div>
                 </button >
             </div>
-            <div className={`fixed rounded mt-2 w-full h-screen bg-primary ${isNavOpen ? "-translate-x-1/4" : "translate-x-full"} transition-all duration-300 ease-in-out`}>
-                <ul className="flex flex-col justify-between text-light">
+            <div className={`fixed top-[8.5%] shadow-hamburger justify-center opacity-90 rounded mt-2 w-[120%] px-5 h-1/3 bg-primary ${isNavOpen ? "-translate-x-[82%]" : "translate-x-full"} transition-all duration-300 ease-in-out`}>
+                <ul className="flex flex-col items-center text-light">
                     {pages.map((pg) => (
-                        <li key={pg.name} className="py-4 first:pt-4 last:pb-4 h-min text-left">
+                        <li key={pg.name} className="py-4 first:pt-4 last:pb-4 h-min text-center group">
                             <Link href={pg.link} className="block w-min h-6 text-lg font-normal py-2 pl-3 pr-4">
                                 {pg.name}
-                                <span className={`h-0.5 inline-block bg-dark ${router.asPath === pg.link ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+                                <span className={`h-0.5 inline-block bg-dark group-hover:w-full transition-[width] ease duration-300 ${router.asPath === pg.link ? 'w-full' : 'w-0'}`}>&nbsp;</span>
                             </Link>
                         </li>
                     ))}

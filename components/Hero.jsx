@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className="my-4 text-base font-medium">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi scelerisque eu ultrices vitae. Pellentesque habitant morbi tristique senectus et netus et. Rhoncus urna neque viverra justo nec ultrices dui. Tempor orci eu lobortis elementum nibh tellus. Eu volutpat odio facilisis mauris sit. Platea dictumst quisque sagittis purus sit. Sed adipiscing diam donec adipiscing tristique risus nec. Ac felis donec et odio pellentesque diam. Nulla facilisi nullam vehicula ipsum a arcu cursus. Arcu non sodales neque sodales ut etiam sit amet nisl. Amet venenatis urna cursus eget nunc scelerisque. Eu facilisis sed odio morbi quis commodo odio aenean.
                 </p>
-                <div className="flex items-center lg:self-start  mt-2">
+                <div className="flex items-center rounded-lg bg-primary lg:self-start shadow-resume  mt-2">
                     <motion.a
                         href="/"
                         className="flex items-center bg-primary text-light p-2.5 rounded-lg text-lg font-semibold hover:bg-light hover:text-primary border-solid border-transparent border-2 hover:border-dark"
