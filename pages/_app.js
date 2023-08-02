@@ -12,10 +12,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="widt-device-width, initial-scale=1" />
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout className="pt-2 lg:pt-0 px-12 md:px-32">
+      <Layout className="pt-2 lg:pt-0">
         <Component {...pageProps} />
       </Layout>
     </>

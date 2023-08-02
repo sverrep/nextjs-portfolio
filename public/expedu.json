@@ -1,0 +1,26 @@
+[
+    {
+        "position": "Software Engineering Working Student",
+        "company": "Caremote",
+        "companyLink": "https://www.getmellow.app/",
+        "time": "Spring 2022",
+        "location": "Berlin, Germany",
+        "work": "Creating a responsive website with SvelteKit and TailwindCSS."
+    },
+    {
+        "position": "Software Engineering BSc Student",
+        "company": "CODE University of Applied Sciences",
+        "companyLink": "https://code.berlin/en/",
+        "time": "September 2019-Present",
+        "location": "Berlin, Germany",
+        "work": "Took courses ranging from basic web development, to machine learning. Also participated in several projects, which was the basis for all grades."
+    },
+    {
+        "position": "Student",
+        "company": "American School of Barcelona",
+        "companyLink": "https://www.asbarcelona.com/",
+        "time": "September 2012-June 2019",
+        "location": "Barcelona, Spain",
+        "work": "Completed IB High School Diploma, relevant classes include HL Computer Science and Spanish."
+    }
+]

@@ -18,14 +18,14 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
     return (
-        <header className="sticky top-0 lg:contents">
+        <header className="sticky top-0 z-50 lg:contents">
             <div className="flex md:hidden bg-light px-4 py-2 font-medium justify-between">
                 <Name />
                 <div className="py-2">
                     <HamburgerMenu/>
                 </div>
             </div>
-            <div className="hidden bg-light w-full px-24 py-6 font-medium items-center justify-between md:flex">
+            <div className="hidden sticky top-0 z-50 bg-light w-full px-24 py-6 font-medium items-center justify-between md:flex">
                 <Name />
                 <nav className=" xl:w-1/3">
                     <CustomLink href="/" title="Home" className="mr-4" />

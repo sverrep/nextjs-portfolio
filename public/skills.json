@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Javascript",
+        "x": "4vh",
+        "y": "12vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+    },
+    {
+        "name": "HTML",
+        "x": "11vh",
+        "y": "-7vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        "name": "CSS",
+        "x": "-5vh",
+        "y": "-10vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        "name": "React",
+        "x": "20vh",
+        "y": "3vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+        "name": "TailwindCSS",
+        "x": "-20vh",
+        "y": "-15vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+    },
+    {
+        "name": "Python",
+        "x": "-15vh",
+        "y": "0vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+        "name": "Django",
+        "x": "-32vh",
+        "y": "-5vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+    },
+    {
+        "name": "MongoDB",
+        "x": "23vh",
+        "y": "16vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+        "name": "MySQL",
+        "x": "32vh",
+        "y": "-5vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    },
+    {
+        "name": "UnrealEngine",
+        "x": "0vh",
+        "y": "-20vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg"
+    },
+    {
+        "name": "Jest",
+        "x": "0vh",
+        "y": "20vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+    },
+    {
+        "name": "Git",
+        "x": "19vh",
+        "y": "-15vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+
+    {
+        "name": "Tensorflow",
+        "x": "-22vh",
+        "y": "12vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+    },
+    {
+        "name": "VSCode",
+        "x": "0vh",
+        "y": "0vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+    },
+    {
+        "name": "Next.js",
+        "x": "33vh",
+        "y": "8vh",
+        "link": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+    }
+]

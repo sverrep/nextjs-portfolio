@@ -1,6 +1,6 @@
 import Image from "next/image"
-import headshot from "../public/download.png"
-import AnimatedText from "@/components/AnimatedText"
+import headshot from "../public/headshot.png"
+import { AnimatedText } from "@/components/AnimatedText"
 import { motion } from "framer-motion"
 import { LinkArrow } from "@/components/Icons"
 
@@ -17,14 +17,14 @@ const Hero = () => {
                 </p>
                 <div className="flex items-center rounded-lg bg-primary lg:self-start shadow-resume  mt-2">
                     <motion.a
-                        href="/"
+                        
                         className="flex items-center bg-primary text-light p-2.5 rounded-lg text-lg font-semibold hover:bg-light hover:text-primary border-solid border-transparent border-2 hover:border-dark"
                         whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.9 }}
                         transition={{
                             type: "spring",
                             stiffness: 400,
-                            damping: 10,
-                            delay: 0.05
+                            damping: 17,
                         }}
                     >
                         Resume <LinkArrow className={"w-6 ml-1"} />
