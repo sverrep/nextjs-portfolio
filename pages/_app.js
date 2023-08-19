@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width-device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout className="pt-2 lg:pt-0">
+      <Layout className="pt-2 lg:pt-0 bg-light">
         <Component {...pageProps} />
       </Layout>
     </>

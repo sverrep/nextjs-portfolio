@@ -4,7 +4,7 @@ const Layout = ({ children, className = "" }) => {
     return (
         <>
             <NavBar />
-            <main className={`min-h-screen w-full inline-block z-0 bg-light ${className}`}>{children}</main>
+            <main className={`h-full w-full inline-block z-0 ${className}`}>{children}</main>
         </>
     );
 }

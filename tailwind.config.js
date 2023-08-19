@@ -27,11 +27,13 @@ module.exports = {
         resume: '12px 12px 24px #5078c8, -12px -12px 24px #689cff',
         hamburger: '12px -12px 18px #5884dd,-12px 12px 18px #6090ef;',
         cardDark: '4px -4px 10px #ae376c, -4px 4px 10px #de478a',
-        card: '#d11bff42 0 15px 40px -5px;'
+        card: '#FF7F50 0 15px 40px -20px;'
+      },
+      dropShadow: {
+        stroke: '-1px -1px 0 #689cff, 1px -1px 0 #689cff, -1px 1px 0 #689cff, 1px 1px 0 #689cff;'
       },
       backgroundImage: {
-        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, rgba(214, 188, 158, 0) 5px, rgba(214, 188, 158, 0) 50px)',
-        card: "linear-gradient(to right bottom, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);"
+        card: "linear-gradient(to right bottom, rgb(255, 228, 196 ) 60%, rgb(255, 231, 222) 88%);"
       },
 
       keyframes: {

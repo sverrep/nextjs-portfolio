@@ -1,6 +1,7 @@
-import { AnimatedText } from "@/components/AnimatedText";
+import { AnimatedText, Header } from "@/components/AnimatedText";
 import ExpEdu from "@/components/ExpEdu";
 import Skills from "@/components/Skills";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -12,8 +13,8 @@ const About = () => {
         />
       </div>
 
-      <div className="lg:grid lg:h-full lg:pb-20 min-h-fit w-full lg:grid-cols-8 xl:gap-16 bg-primaryLight/20 -mt-8 lg:-mt-20 -mb-14 pt-10">
-        <div className="lg:col-span-4 flex flex-col items-start justify-start px-10 lg:px-20 xl:px-36 pt-5 lg:pt-14">
+      <div className="lg:grid lg:h-full lg:pb-20 min-h-fit w-full lg:grid-cols-8 xl:gap-16 bg-primaryLight/40 -mt-8 lg:-mt-20 -mb-14 pt-10">
+        <div className="col-span-4 2xl:col-span-3 flex flex-col items-start justify-start px-10 lg:px-20 xl:px-36 pt-5 lg:pt-14 text-lg">
           <p className="font-medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi
@@ -34,15 +35,13 @@ const About = () => {
             aenean.
           </p>
         </div>
-        <div className="col-span-4 items-center pb-24 pt-10 lg:pt-0 lg:pb-0">
-          <h2 className="text-center font-bold text-2xl text-dark pb-10 lg:-mt-5">
-            Experience and Education
-          </h2>
-          <ExpEdu />
+        <div className="col-span-4 2xl:col-span-5 items-center pb-24 pt-10 lg:pt-0 lg:pb-0">
+          <Header text="Skillset" className="text-center font-bold text-3xl text-primary uppercase"/>
+          <Skills />
         </div>
       </div>
       <div className="h-5/6 items-center md:pb-20 lg:h-[80vh]">
-        <Skills />
+        <ExpEdu />
       </div>
     </div>
   );

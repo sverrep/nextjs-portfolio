@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <div
-        className={`flex px-12 pb-10 lg:pb-0 md:px-32 items-center text-dark w-full lg:h-[80vh]`}
+        className={`flex px-12 pb-10 lg:pb-0 md:px-32 items-center text-dark w-full h-full lg:h-[70vh]`}
       >
         <Hero />
       </div>
