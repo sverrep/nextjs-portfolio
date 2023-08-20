@@ -26,7 +26,6 @@ module.exports = {
       boxShadow: {
         resume: '12px 12px 24px #5078c8, -12px -12px 24px #689cff',
         hamburger: '12px -12px 18px #5884dd,-12px 12px 18px #6090ef;',
-        cardDark: '4px -4px 10px #ae376c, -4px 4px 10px #de478a',
         card: '#FF7F50 0 15px 40px -20px;'
       },
       dropShadow: {

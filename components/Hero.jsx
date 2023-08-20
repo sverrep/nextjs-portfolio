@@ -54,7 +54,7 @@ const Hero = () => {
             }}
             className="flex h-full items-center justify-center rounded-lg bg-primary text-light lg:self-start hover:bg-light hover:text-primary border-solid border-transparent border-2 hover:border-dark cursor-pointer"
           >
-            <a className="flex items-center p-2.5 rounded-lg text-lg font-semibold">
+            <a href="/CV.pdf" target="_blank" className="flex items-center p-2.5 rounded-lg text-lg font-semibold">
               Resume <LinkArrow className={"w-6 ml-1"} />
             </a>
           </motion.div>

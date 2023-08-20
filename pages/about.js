@@ -9,7 +9,7 @@ const about = () => {
         <meta name="description" content="About Sverre Paulsen" />
       </Head>
       <div
-        className={`w-full lg:h-full bg-light lg:pt-16 pb-20 md:pb-0 m-0 overflow-hidden`}
+        className={`w-full lg:h-[200vh] bg-light lg:pt-16 pb-20 md:pb-0 m-0 overflow-hidden`}
       >
         <About />
       </div>

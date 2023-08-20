@@ -1,26 +1,32 @@
 [
     {
-        "position": "Software Engineering Working Student",
+        "id": 1,
+        "title": "Software Engineering Working Student",
         "company": "Caremote",
         "companyLink": "https://www.getmellow.app/",
-        "time": "Spring 2022",
+        "date": "March 2022 - June 2022",
         "location": "Berlin, Germany",
-        "work": "Creating a responsive website with SvelteKit and TailwindCSS."
+        "description": "Created a responsive website with SvelteKit and TailwindCSS and gained first professional experience.",
+        "icon": "work"
     },
     {
-        "position": "Software Engineering BSc Student",
+        "id": 2,
+        "title": "Software Engineering BSc Student",
         "company": "CODE University of Applied Sciences",
         "companyLink": "https://code.berlin/en/",
-        "time": "September 2019-Present",
+        "date": "September 2019 - Present",
         "location": "Berlin, Germany",
-        "work": "Took courses ranging from basic web development, to machine learning. Also participated in several projects, which was the basis for all grades."
+        "description": "Took courses ranging from basic web development, to machine learning. Also participated in several projects as the basis for all grades.",
+        "icon": "school"
     },
     {
-        "position": "Student",
+        "id": 3,
+        "title": "Student",
         "company": "American School of Barcelona",
         "companyLink": "https://www.asbarcelona.com/",
-        "time": "September 2012-June 2019",
+        "date": "September 2012 - June 2019",
         "location": "Barcelona, Spain",
-        "work": "Completed IB High School Diploma, relevant classes include HL Computer Science and Spanish."
+        "description": "Completed IB High School Diploma, relevant classes include High Level Computer Science.",
+        "icon": "school"
     }
 ]
