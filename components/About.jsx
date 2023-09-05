@@ -1,15 +1,13 @@
 import { AnimatedText, Header } from "@/components/AnimatedText";
-import ExpEdu from "@/components/ExpEdu";
 import Skills from "@/components/Skills";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex h-full lg:block lg:px-36 lg:mx-auto lg:h-36 bg-light">
         <AnimatedText
           text="About Me"
-          className="lg:text-left text-center text-smallHeader lg:text-8xl text-primary/80"
+          className="lg:text-left tracking-widest text-center text-smallHeader lg:text-8xl text-primary/80"
         />
       </div>
 
@@ -40,9 +38,7 @@ const About = () => {
           <Skills />
         </div>
       </div>
-      <div className="h-5/6 items-center md:pb-20 lg:h-[80vh]">
-        <ExpEdu />
-      </div>
+
     </div>
   );
 };

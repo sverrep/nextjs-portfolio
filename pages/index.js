@@ -1,6 +1,9 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
-import Layout from "@/components/Layout";
 import Head from "next/head";
+import Projects from "@/components/Projects";
+import ExpEdu from "@/components/ExpEdu";
+
 
 export default function Home() {
   return (
@@ -10,11 +13,19 @@ export default function Home() {
         <meta name="description" content="Sverre Paulsen Portfolio" />
       </Head>
 
-      <div
-        className={`flex px-12 pb-10 lg:pb-0 md:px-32 items-center text-dark w-full h-full lg:h-[70vh]`}
-      >
+      <div className="snap-center">
         <Hero />
       </div>
+      <div className="snap-center ">
+        <About />
+      </div>
+      <div className="snap-center">
+        <ExpEdu />
+      </div>
+      <div className="snap-center">
+        <Projects />
+      </div>
+
     </>
   );
 }

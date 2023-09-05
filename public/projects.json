@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "title": "DatA2",
+        "link": "https://github.com/orgs/Capstone-Data2/repositories",
+        "link_type": "Github",
+        "description": "A full stack project using React as the front end, with a Django backend. The main focus was on using machine learning to analyze a user's data from the video game DotA 2 to give personalized information based on their recent games and their performance within them.",
+        "main_skills": [
+            "Machine Learning",
+            "Python",
+            "React"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Fingerprint Gender Classification",
+        "link": "",
+        "link_type": "PDF",
+        "description": "Bachelor Thesis exploring the topic of automatic gender classification based on fingerprint images using transfer learning models.",
+        "main_skills": [
+            "Deep Learning",
+            "Python",
+            "Research"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Replecon",
+        "link": "https://github.com/sverrep/Replecon-Fullstack",
+        "link_type": "Github",
+        "description": "A react website and mobile application connected to a django backend made to simulate a small economy virtually to allow students of economics classes to experience topics they are learning about hands on.",
+        "main_skills": [
+            "React",
+            "Python",
+            "Databases"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "VRlin",
+        "link": "https://drive.google.com/file/d/1OKNP_UhIf6QuFacqqchR9isEitBCPxt4/view",
+        "link_type": "Video",
+        "description": "A 3D project where we recreated a historic location in Berlin to let users explore how daily life was like in the past and improve our understanding of historical backgrounds in local areas. We recreated Friedrichstrasse as it was in the 1920s in Unreal Engine with VR specific interactions.",
+        "main_skills": [
+            "Unreal Engine",
+            "Blender"
+        ]
+    }
+]

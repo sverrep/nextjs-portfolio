@@ -13,7 +13,7 @@ const ExpEdu = () => {
   let school_icon_styles = { background: "#F9C74F" };
 
   return (
-    <div className="h-full flex flex-col items-center text-dark">
+    <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark">
       <div className="h-24 lg:h-36 mt-6 lg:mt-3 pb-8">
         <AnimatedText
           text="Experience and Education"
@@ -33,7 +33,7 @@ const ExpEdu = () => {
               contentStyle={{"box-shadow": '0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15)', "padding": "2em 3em"}}
             >
               <h3 className="font-bold text-lg">{element.title}</h3>
-              <a href={element.companyLink} className="font-semibold text-base underline">{element.company}</a>
+              <a href={element.companyLink} target="_blank" className="font-semibold text-base underline">{element.company}</a>
               <h5 className="font-semibold text-base">{element.location}</h5>
               <p className="!font-normal ">{element.description}</p>
 
