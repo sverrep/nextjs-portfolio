@@ -4,7 +4,6 @@ import Head from "next/head";
 import Projects from "@/components/Projects";
 import ExpEdu from "@/components/ExpEdu";
 import NavBar from "@/components/NavBar";
-import { useEffect, useRef } from "react";
 
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
       <div id="experience" className="snap-start">
         <ExpEdu />
       </div>
-      <div id="projects" className="snap-start pt-20">
+      <div id="projects" className="snap-start pt-20 -mb-72 md:-mb-44">
         <Projects />
       </div>
 

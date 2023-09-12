@@ -12,11 +12,11 @@ const ExpEdu = () => {
   let school_icon_styles = { background: "#F9C74F" };
 
   return (
-    <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark pt-20">
+    <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark pt-16 md:pt-20">
       <div className="h-24 lg:h-36 mt-6 lg:mt-3 pb-8">
         <AnimatedText
           text="Experience and Education"
-          className="lg:text-left text-center text-smallHeader lg:text-6xl text-primary/80"
+          className="lg:text-left text-center text-smallHeader lg:text-6xl text-primary/80 tracking-widest"
         />
       </div>
       <VerticalTimeline>

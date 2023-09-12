@@ -8,7 +8,7 @@ const Name = () => {
     <div className="flex flex-col mt-2">
       <MotionLink
         href="/"
-        className="w-full h-ful text-primary flex text-2xl font-bold"
+        className="w-full h-full text-primary flex text-2xl font-bold"
         whileHover={{
           color: "#8C7358",
           transition: { duration: 0.5 },
