@@ -6,7 +6,7 @@ import { LinkArrow } from "@/components/Icons";
 
 const Hero = () => {
   return (
-    <div className="h-full px-12 lg:pb-56 md:px-32 text-dark flex flex-col lg:flex-row items-center justify-between w-full pt-10 pb-44">
+    <div className="h-full px-12 lg:pb-36 md:px-32 text-dark flex flex-col lg:flex-row items-center justify-between w-full pt-10 pb-44">
       <motion.div
         initial={{ x: -1000 }}
         animate={{

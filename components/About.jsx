@@ -3,15 +3,16 @@ import Skills from "@/components/Skills";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="md:pt-20">
       <div className="flex h-full lg:block lg:px-36 lg:mx-auto lg:h-36 bg-light">
         <AnimatedText
           text="About Me"
+          id="about"
           className="lg:text-left tracking-widest text-center text-smallHeader lg:text-8xl text-primary/80"
         />
       </div>
 
-      <div className="lg:grid lg:h-full lg:pb-20 min-h-fit w-full lg:grid-cols-8 xl:gap-16 bg-primaryLight/40 -mt-8 lg:-mt-20 -mb-14 pt-10">
+      <div className="lg:grid lg:h-full lg:pb-20 min-h-fit w-full lg:grid-cols-8 xl:gap-16 bg-primaryLight/40 -mt-8 lg:-mt-20 -mb-32 pt-10">
         <div className="col-span-4 2xl:col-span-3 flex flex-col items-start justify-start px-10 lg:px-20 xl:px-36 pt-5 lg:pt-14 text-lg">
           <p className="font-medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

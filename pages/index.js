@@ -3,29 +3,33 @@ import Hero from "@/components/Hero";
 import Head from "next/head";
 import Projects from "@/components/Projects";
 import ExpEdu from "@/components/ExpEdu";
+import NavBar from "@/components/NavBar";
+import { useEffect, useRef } from "react";
 
 
 export default function Home() {
+
   return (
-    <>
+    <div className="scroll-smooth">
       <Head>
         <title> Sverre Paulsen | Home Page</title>
         <meta name="description" content="Sverre Paulsen Portfolio" />
       </Head>
+      <NavBar  />
 
-      <div className="snap-center">
+      <div id="home" className="snap-start pt-20">
         <Hero />
       </div>
-      <div className="snap-center ">
+      <div id="about" className="snap-start ">
         <About />
       </div>
-      <div className="snap-center">
+      <div id="experience" className="snap-start">
         <ExpEdu />
       </div>
-      <div className="snap-center">
+      <div id="projects" className="snap-start pt-20">
         <Projects />
       </div>
 
-    </>
+    </div>
   );
 }

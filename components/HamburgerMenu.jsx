@@ -3,10 +3,10 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 
 const pages = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Projects", link: "/projects" },
-    { name: "Contact", link: "/contact" },
+    { name: "Home", link: "#home" },
+    { name: "About", link: "#about" },
+    { name: "Projects", link: "#projects" },
+    { name: "Contact", link: "#contact" },
 ]
 
 const HamburgerMenu = () => {
@@ -27,7 +27,7 @@ const HamburgerMenu = () => {
                 <ul className="flex flex-col items-center text-light">
                     {pages.map((pg) => (
                         <li key={pg.name} className="py-4 first:pt-4 last:pb-4 h-min text-center group">
-                            <Link href={pg.link} className="block w-min h-6 text-lg font-normal py-2 pl-3 pr-4">
+                            <Link href={pg.link} onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)} className="block w-min h-6 text-lg font-normal py-2 pl-3 pr-4">
                                 {pg.name}
                                 <span className={`h-0.5 inline-block bg-dark group-hover:w-full transition-[width] ease duration-300 ${router.asPath === pg.link ? 'w-full' : 'w-0'}`}>&nbsp;</span>
                             </Link>

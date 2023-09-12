@@ -53,7 +53,7 @@ const pwords = {
   },
 };
 
-export const AnimatedText = ({ text, className = "" }) => {
+export const AnimatedText = ({ text, className = "", id="" }) => {
   return (
     <div className="w-full mx-auto py-2 flex items-center justify-center overflow-hidden">
       <motion.h1

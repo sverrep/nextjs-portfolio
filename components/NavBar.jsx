@@ -28,10 +28,11 @@ const NavBar = () => {
             <div className="hidden sticky top-0 z-50 bg-light w-full px-24 py-6 font-medium items-center justify-between md:flex">
                 <Name />
                 <nav className=" xl:w-1/3">
-                    <CustomLink href="/" title="Home" className="mr-4" />
-                    <CustomLink href="/about" title="About" className="mx-4" />
-                    <CustomLink href="/projects" title="Projects" className="mx-4" />
-                    <CustomLink href="/contact" title="Contact" className="ml-4" />
+                    <CustomLink href="#home" title="Home" className="mr-4" />
+                    <CustomLink href="#about" title="About" className="mx-4" />
+                    <CustomLink href="#experience" title="Experience" className="mx-4" />
+                    <CustomLink href="#projects" title="Projects" className="mx-4" />
+                    <CustomLink href="#contact" title="Contact" className="ml-4" />
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a

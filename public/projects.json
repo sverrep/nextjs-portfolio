@@ -9,7 +9,8 @@
             "Machine Learning",
             "Python",
             "React"
-        ]
+        ],
+        "picture": "screenshots/Data2.png"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
             "Deep Learning",
             "Python",
             "Research"
-        ]
+        ],
+        "picture": "screenshots/Thesis.png"
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@
             "React",
             "Python",
             "Databases"
-        ]
+        ],
+        "picture": "screenshots/Replecon.png"
     },
     {
         "id": 4,
@@ -44,6 +47,7 @@
         "main_skills": [
             "Unreal Engine",
             "Blender"
-        ]
+        ],
+        "picture": "screenshots/VRlin.png"
     }
 ]

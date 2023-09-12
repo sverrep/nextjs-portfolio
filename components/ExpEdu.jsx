@@ -1,5 +1,4 @@
 import timelineElements from "./../public/expedu.json";
-import { useRef } from "react";
 import { AnimatedText } from "./AnimatedText";
 import { WorkIcon, SchoolIcon } from "./icons.jsx";
 import {
@@ -13,7 +12,7 @@ const ExpEdu = () => {
   let school_icon_styles = { background: "#F9C74F" };
 
   return (
-    <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark">
+    <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark pt-20">
       <div className="h-24 lg:h-36 mt-6 lg:mt-3 pb-8">
         <AnimatedText
           text="Experience and Education"

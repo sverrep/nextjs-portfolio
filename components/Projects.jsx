@@ -21,9 +21,9 @@ function Projects(props) {
         <Carousel className="h-[50vh] md:h-3/5">
           {project_list.map((project) => {
             return (
-              <div className="relative h-full w-full">
+              <div key={project.title} className="relative h-full w-full">
                 <img
-                  src="screenshots/Data2.png"
+                  src={project.picture}
                   alt="image 1"
                   className="w-full h-full object-cover"
                 />
