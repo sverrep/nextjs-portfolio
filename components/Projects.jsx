@@ -9,7 +9,7 @@ function Projects(props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="w-full h-screen bg-light m-0 relative flex flex-col text-left max-w-full  mx-auto items-center z-0 "
+      className="w-full h-full bg-light m-0 relative flex flex-col text-left max-w-full  mx-auto items-center z-0 pb-10 md:pb-20"
     >
       <div className="pb-20">
         <AnimatedText
@@ -17,8 +17,8 @@ function Projects(props) {
           className="absolute top-0 tracking-widest text-center text-smallHeader lg:text-6xl text-primary/80 !leading-tight"
         />
       </div>
-      <div className="relative w-full flex">
-        <Carousel className="h-[50vh] md:h-3/5">
+      <div className="relative w-full h-[60vh] flex">
+        <Carousel className="h-[65vh] md:h-full">
           {project_list.map((project) => {
             return (
               <div key={project.title} className="relative h-full w-full">

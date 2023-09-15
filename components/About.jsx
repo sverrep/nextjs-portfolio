@@ -3,7 +3,7 @@ import Skills from "@/components/Skills";
 
 const About = () => {
   return (
-    <div className="md:pt-20">
+    <div className="pt-20 md:pt-20">
       <div className="flex h-full lg:block lg:px-36 lg:mx-auto lg:h-36 bg-light">
         <AnimatedText
           text="About Me"

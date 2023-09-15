@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <NavBar  />
 
-      <div id="home" className="snap-start pt-20">
+      <div id="home" className="snap-start pt-20 -mb-20 md:mb-0">
         <Hero />
       </div>
       <div id="about" className="snap-start ">
@@ -25,7 +25,7 @@ export default function Home() {
       <div id="experience" className="snap-start">
         <ExpEdu />
       </div>
-      <div id="projects" className="snap-start pt-20 -mb-72 md:-mb-44">
+      <div id="projects" className="snap-start pt-64 sm:pt-8 md:pt-6 lg:pt-14">
         <Projects />
       </div>
 

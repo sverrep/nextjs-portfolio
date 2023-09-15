@@ -13,7 +13,7 @@ const ExpEdu = () => {
 
   return (
     <div className="h-screen items-center mb-32 lg:mb-16 pb-20 flex flex-col text-dark pt-16 md:pt-20">
-      <div className="h-24 lg:h-36 mt-6 lg:mt-3 pb-8">
+      <div className="h-36 lg:h-36 mt-6 lg:mt-3">
         <AnimatedText
           text="Experience and Education"
           className="lg:text-left text-center text-smallHeader lg:text-6xl text-primary/80 tracking-widest"
@@ -29,7 +29,7 @@ const ExpEdu = () => {
               dateClassName="date"
               iconStyle={is_work_icon ? work_icon_styles : school_icon_styles}
               icon={is_work_icon ? <WorkIcon/> : <SchoolIcon/>}
-              contentStyle={{"box-shadow": '0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15)', "padding": "2em 3em"}}
+              contentStyle={{"boxShadow": '0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15)', "padding": "2em 3em"}}
             >
               <h3 className="font-bold text-lg">{element.title}</h3>
               <a href={element.companyLink} target="_blank" className="font-semibold text-base underline">{element.company}</a>
