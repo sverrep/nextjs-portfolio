@@ -1,6 +1,6 @@
 import timelineElements from "./../public/expedu.json";
 import { AnimatedText } from "./AnimatedText";
-import { WorkIcon, SchoolIcon } from "./icons.jsx";
+import { WorkIcon, SchoolIcon } from "./Icons.jsx";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
