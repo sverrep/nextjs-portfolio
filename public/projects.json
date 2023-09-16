@@ -10,7 +10,7 @@
             "Python",
             "React"
         ],
-        "picture": "screenshots/Data2.png"
+        "picture": "/screenshots/Data2.png"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
             "Python",
             "Research"
         ],
-        "picture": "screenshots/Thesis.png"
+        "picture": "/screenshots/Thesis.png"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
             "Python",
             "Databases"
         ],
-        "picture": "screenshots/Replecon.png"
+        "picture": "/screenshots/Replecon.png"
     },
     {
         "id": 4,
@@ -48,6 +48,6 @@
             "Unreal Engine",
             "Blender"
         ],
-        "picture": "screenshots/VRlin.png"
+        "picture": "/screenshots/VRlin.png"
     }
 ]

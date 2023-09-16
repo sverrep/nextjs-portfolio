@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { AnimatedText } from "./AnimatedText";
 import project_list from "../public/projects.json";
 import { Carousel, Typography, Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 function Projects(props) {
   return (
@@ -22,9 +23,11 @@ function Projects(props) {
           {project_list.map((project) => {
             return (
               <div key={project.title} className="relative h-full w-full">
-                <img
+                <Image
                   src={project.picture}
                   alt="image 1"
+                  width={1920}
+                  height={1080}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
