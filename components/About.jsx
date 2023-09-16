@@ -16,23 +16,23 @@ const About = () => {
         <div className="col-span-4 2xl:col-span-3 flex flex-col items-start justify-start px-10 lg:pl-20 xl:pl-24 pt-5 lg:pt-14 text-lg xl:pt-20 2xl:text-xl">
           <p className="font-medium">
             As a Norwegian who grew up in Spain attending an international
-            school, I've been exposed to a diverse range of perspectives and
+            school, I&apos;ve been exposed to a diverse range of perspectives and
             cultures from a young age. As a result, I learned how to be
             adaptable and have an open mind early on, which has continuously
             proven to be invaluable to me as a software engineer.
           </p>
           <p className="my-4 font-medium">
-            Although I so far have limited professional experience, I'm eager to
+            Although I so far have limited professional experience, I&apos;m eager to
             learn and have already worked on several projects that have allowed
             me to develop and hone my skills with multiple languages, such as
             Javascript and Python, and frameworks, like React, Next.js, and
             Django.
           </p>
           <p className="font-medium">
-            Ultimately, I'm driven by a desire to develop innovative and
-            effective solutions to complex problems. I'm excited about the
+            Ultimately, I&apos;m driven by a desire to develop innovative and
+            effective solutions to complex problems. I&apos;m excited about the
             chance to network with others in the industry and explore new
-            opportunities, so please don't hesitate to reach out.
+            opportunities, so please don&apos;t hesitate to reach out.
           </p>
         </div>
         <div className="col-span-4 2xl:col-span-5 items-center pb-24 pt-10 lg:pt-0 lg:pb-0">
